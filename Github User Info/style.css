@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+}
+
+.card {
+    margin: 1pc auto;
+    width: 40rem;
+    height: 24rem;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(92,9,255,1) 0%, rgba(41,0,153,1) 100%);
+}
+
+@media screen and (max-width: 650px) {
+    .card {
+        width: 23rem;
+    }
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20pc;
+    margin: 8pc auto 3pc;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input#gusername {
+    border: none;
+    outline: none;
+    padding: 10px 1pc;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+.face {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.5pc;
+}
+
+@media screen and (max-width: 650px) {
+    .face {
+        padding: 0 1.5pc;
+    }
+}
+
+#avatar {
+    width: 10pc;
+    border-radius: 25px;
+    border: 2px solid #1b1b1b;
+    margin-top: 1.5pc;
+}
+
+#username {
+    color: #ddd;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#des {
+    font-size: 13px;
+    display: block;
+    color: #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+
+.ava p{
+    text-align: center;
+    color: #ddd;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#bio {
+    display: block;
+    text-align: center;
+}
+
+.content {
+    margin-top: 1.5pc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.following h1{
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.following p {
+    text-align: center;
+    color: #ddd;
+}
+
+.post h1{
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.post p {
+    text-align: center;
+    color: #ddd;
+}
+
+.followers h1{
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.followers p {
+    text-align: center;
+    color: #ddd;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links h1 {
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 1.5pc;
+    letter-spacing: 1px;
+}
+
+.links h1 b {
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 1.5pc;
+    letter-spacing: 1px;
+}
+
+.creat {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2pc;
+    color: #ddd;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#creatAt {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2pc;
+    color: #ddd;
+    font-weight: 400;
+    text-transform: uppercase;
+}
